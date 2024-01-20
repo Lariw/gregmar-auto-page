@@ -1,10 +1,31 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.103);
+  position: sticky;
+  top: 0;
+  right: 0;
 }
 
+.nav__containerImage {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
 .nav__img {
   width: 100px;
+}
+
+@media only screen and (max-width: 800px) {
+  .nav__img {
+    width: 50px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .nav__img {
+    width: 40px;
+  }
 }
 
 .nav__links {
@@ -12,6 +33,12 @@
   margin-right: 50px;
   flex-direction: row;
   align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .nav__links {
+    display: none;
+  }
 }
 
 .nav__list {
@@ -43,4 +70,30 @@
 
 .nav__a:hover::after {
   width: 100%;
+}
+
+.nav__hamburgerNav {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .nav__hamburgerNav {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.nav__iconContainer {
+  padding: 5px;
+  background-color: #fff;
+  margin: 15px;
+  border-radius: 6px;
+  display: flex;
+  height: 40px;
+}
+
+.nav__icon {
+  width: 30px;
+  cursor: pointer;
+  align-self: center;
 }
