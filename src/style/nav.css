@@ -1,18 +1,39 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.103);
-  position: sticky;
+  background-color: rgba(0, 0, 0, 0.863);
+  position: fixed;
+  width: 100%;
   top: 0;
   right: 0;
+  z-index: 9;
+}
+
+.nav__logo {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.2em;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Tektur", sans-serif;
+  font-weight: bold;
+}
+
+.nav__logoImage {
+  width: 30px;
+  margin-left: 10px;
 }
 
 .nav__containerImage {
   margin: 20px;
   display: flex;
+  flex-direction: row;
   align-items: center;
 }
 .nav__img {
+  display: none;
   width: 100px;
 }
 
@@ -33,6 +54,7 @@
   margin-right: 50px;
   flex-direction: row;
   align-items: center;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 800px) {
@@ -73,6 +95,7 @@
 }
 
 .nav__hamburgerNav {
+  z-index: 99;
   display: none;
 }
 

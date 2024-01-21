@@ -15,6 +15,13 @@
   flex-direction: column;
 }
 
+.loadingScroll-bar {
+  height: 3px;
+  width: 0%;
+  background-color: crimson;
+  z-index: 10;
+}
+
 .header__h1 {
   display: block;
   text-align: center;
@@ -22,7 +29,8 @@
   text-transform: uppercase;
   color: #fff;
   font-family: "Tektur", sans-serif;
-  margin: 50px 0;
+  margin-top: 250px;
+  margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 800px) {

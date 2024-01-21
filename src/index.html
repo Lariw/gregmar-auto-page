@@ -17,23 +17,30 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Tektur:wght@400;900&display=swap"
       rel="stylesheet"
     />
+
+    <script defer src="./script/navigaition-scroll-bar.js"></script>
   </head>
   <body>
     <header class="header">
       <nav class="nav">
-        <div class="nav__containerImage">
-          <img class="nav__img" src="./images/navigation-image.png" alt="" />
-        </div>
-
-        <div class="nav__links">
-          <ul class="nav__list">
-            <li class="nav__li"><a class="nav__a" href="">Home</a></li>
-            <li class="nav__li"><a class="nav__a" href="">About</a></li>
-            <li class="nav__li"><a class="nav__a" href="">Blog</a></li>
-            <li class="nav__li">
-              <a class="nav__a" href="">Contact</a>
-            </li>
-          </ul>
+        <div class="loadingScroll-bar js-loadingScroll"></div>
+        <div class="nav">
+          <div class="nav__containerImage">
+            <span class="nav__logo"
+              >Gregmar
+              <img class="nav__logoImage" src="./images/favicon.webp" alt="" />
+            </span>
+          </div>
+          <div class="nav__links">
+            <ul class="nav__list">
+              <li class="nav__li"><a class="nav__a" href="">Home</a></li>
+              <li class="nav__li"><a class="nav__a" href="">O nas</a></li>
+              <li class="nav__li"><a class="nav__a" href="">Blog</a></li>
+              <li class="nav__li">
+                <a class="nav__a" href="">Kontakt</a>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div class="nav__hamburgerNav">
@@ -42,7 +49,6 @@
           </div>
         </div>
       </nav>
-
       <div class="header__heading">
         <h1 class="header__h1">Gregmar</h1>
 
