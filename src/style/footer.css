@@ -2,7 +2,9 @@
   background-color: rgb(53, 53, 53);
   color: #fff;
   display: flex;
+  width: 100%;
   justify-content: space-between;
+  font-size: 13px;
   flex-direction: row;
 }
 
@@ -22,6 +24,12 @@
   font-family: "Tektur", sans-serif;
   border-bottom: 1px solid #ffffff65;
   width: 80%;
+}
+
+@media only screen and (max-width: 705px) {
+  .footer__heading {
+    font-size: 12px;
+  }
 }
 
 .footer__div {
@@ -45,9 +53,16 @@
   margin: 10px 0;
 }
 
+@media only screen and (max-width: 705px) {
+  .footer__links {
+    flex-direction: column;
+  }
+}
+
 .footer__UnOltags {
   list-style: none;
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -62,8 +77,16 @@
 .footer__link--contact {
   display: flex;
   align-items: center;
+  text-align: center;
   width: 100%;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 705px) {
+  .footer__link--contact {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .footer__link--contact:hover {
@@ -75,12 +98,12 @@
 
 .footer__imageIcons--bigger {
   width: 40px;
-  margin: 0 20px;
+  margin: 5px;
 }
 
 .footer__iconContainer {
   display: inline-block;
-  padding: 5px;
+  padding: 2px;
 }
 
 .footer__tags {
@@ -90,11 +113,21 @@
   margin: 10px 0;
 }
 
+@media only screen and (max-width: 705px) {
+  .footer__tags {
+    margin: 2px 5px;
+  }
+}
 .footer__contact {
   display: inline-block;
   width: 200px;
-  margin: 0 10px;
   color: #fff;
+}
+
+@media only screen and (max-width: 705px) {
+  .footer__contact {
+    display: none;
+  }
 }
 
 .footer__socialIconsContainer {
@@ -131,8 +164,9 @@
 
 .footer__aboutContainer {
   display: flex;
-  margin: 40px 0;
+  margin: 40px 5px;
   justify-content: center;
+  text-align: center;
 }
 
 .footer__headingContainer {
@@ -144,4 +178,10 @@
   margin-left: 15px;
   margin-bottom: 5px;
   align-self: center;
+}
+
+@media only screen and (max-width: 705px) {
+  .footer__headingIcon {
+    width: 22px;
+  }
 }
