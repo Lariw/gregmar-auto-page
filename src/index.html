@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./style/footer.css" />
     <link rel="icon" type="image/x-icon" href="./images/favicon.webp" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="./style/contact-form.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Tektur:wght@400;900&display=swap"
@@ -54,11 +55,76 @@
       </div>
     </header>
 
+    <div class="mainSection">
+      <section class="contactForm">
+        <h2 class="contactForm__heading">
+          Skontaktuj się z nami
+          <img
+            class="contactForm__Mailicon"
+            src="./images/email-message.png"
+            alt=""
+          />
+        </h2>
+        <div class="contactForm__text">
+          <span class="contactForm__span"
+            >Masz pytanie, chciałbyś wycenić naprawę lub sprawdzić dostępność
+            terminów?</span
+          >
+          <span class="contactForm__span"
+            >Zostaw nam wiadomość, lub skontakuj się telefonicznie.</span
+          >
+        </div>
+
+        <div class="formContainer">
+          <div class="contactForm__mapContainer">
+            <img
+              class="formContainer__map"
+              src="./images/exampleMap.jpg"
+              alt=""
+            />
+          </div>
+          <div class="contactForm__formContainer">
+            <form class="contactForm__form">
+              <label for="email" class="contactForm__label"
+                ><span class="contact__FormLabelSpan"
+                  >Adres email:
+                </span></label
+              ><input class="contactForm__input" id="email" type="text" />
+              <label for="phone_number" class="contactForm__label">
+                <span class="contact__FormLabelSpan"
+                  >Numer kontaktowy:
+                </span></label
+              >
+              <input class="contactForm__input" id="phone_number" type="text" />
+              <label for="message" class="contactForm__label"
+                ><span class="contact__FormLabelSpan"
+                  >Twoja wiadomość:
+                </span></label
+              ><textarea
+                class="contactForm__input contactForm__input--message"
+                id="message"
+              ></textarea>
+
+              <button type="submit" class="contactForm__submitBtn">
+                Wyślij
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
     <footer>
       <div class="footer">
         <div class="footer__container">
           <div>
-            <h2 class="footer__heading">Gregmar <img class="footer__headingIcon" src="./images/favicon.webp" alt=""></h2>
+            <h2 class="footer__heading">
+              Gregmar
+              <img
+                class="footer__headingIcon"
+                src="./images/favicon.webp"
+                alt=""
+              />
+            </h2>
             <div class="footer__div">
               <ul class="footer__links">
                 <li class="footer__listItem">
@@ -80,7 +146,14 @@
         </div>
         <div class="footer__container">
           <div>
-            <h3 class="footer__heading">Kontakt <img class="footer__headingIcon" src="./images/phone.png" alt=""></h3>
+            <h3 class="footer__heading">
+              Kontakt
+              <img
+                class="footer__headingIcon"
+                src="./images/phone.png"
+                alt=""
+              />
+            </h3>
             <ul class="footer__UnOltags">
               <li class="footer__tags">
                 <a class="footer__link--contact" href=""
@@ -137,12 +210,17 @@
         </div>
 
         <div class="footer__container">
-          <h4 class="footer__heading">O nas <img class="footer__headingIcon" src="./images/about-us.png" alt=""></h4>
+          <h4 class="footer__heading">
+            O nas
+            <img
+              class="footer__headingIcon"
+              src="./images/about-us.png"
+              alt=""
+            />
+          </h4>
 
           <div class="footer__aboutContainer">
-            <span"
-              >Nasz warsztat czeka na kolejnych stałych klientów!</span
-            > 
+            <span>Nasz warsztat czeka na kolejnych stałych klientów!</span>
           </div>
 
           <div class="footer__socialIconsContainer">
