@@ -19,6 +19,7 @@
     />
 
     <script defer src="./script/navigaition-scroll-bar.js"></script>
+    <script defer src="./script/hamburgerMenu.js"></script>
   </head>
   <body>
     <header class="header">
@@ -41,11 +42,42 @@
               </li>
             </ul>
           </div>
-        </div>
 
-        <div class="nav__hamburgerNav">
-          <div class="nav__iconContainer">
-            <img class="nav__icon" src="./images/menu.png" alt="" />
+          <div class="nav__hamburgerNav">
+            <div class="nav__iconContainer">
+              <input
+                type="checkbox"
+                id="checkbox1"
+                class="checkbox1 js-hamburgerBtn visuallyHidden"
+              />
+              <label for="checkbox1">
+                <div class="hamburger hamburger1">
+                  <span class="bar bar1"></span>
+                  <span class="bar bar2"></span>
+                  <span class="bar bar3"></span>
+                  <span class="bar bar4"></span>
+                </div>
+              </label>
+
+              <div
+                class="nav__hamburgerNavContainer nav__hamburgerClose js-hamburgerMenuContainer"
+              >
+                <ul class="nav__list--hamburger">
+                  <li class="nav__li--hamburger">
+                    <a class="nav__a--hamburger" href="">Home</a>
+                  </li>
+                  <li class="nav__li--hamburger">
+                    <a class="nav__a--hamburger" href="">O nas</a>
+                  </li>
+                  <li class="nav__li--hamburger">
+                    <a class="nav__a--hamburger" href="">Blog</a>
+                  </li>
+                  <li class="nav__li--hamburger">
+                    <a class="nav__a--hamburger" href="">Kontakt</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </nav>
