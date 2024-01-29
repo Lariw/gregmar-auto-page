@@ -20,6 +20,7 @@
 
     <script defer src="./script/navigaition-scroll-bar.js"></script>
     <script defer src="./script/hamburgerMenu.js"></script>
+    <script defer src="./script/contact-form.js"></script>
   </head>
   <body>
     <header class="header">
@@ -197,6 +198,25 @@
                 </div>
               </div>
             </div>
+
+            <div class="flipContainer">
+              <div class="card">
+                <div class="front">
+                  <img
+                    class="flipCard__icon"
+                    src="./images/car-lamp.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="back">
+                  <h2>Polerowanie lamp oraz karoserii</h2>
+                  Dzięki naszym usługom polerowania lamp i karoserii Twój pojazd
+                  odzyska blask i estetyczny wygląd, sprawiając, że będzie się
+                  wyróżniał na drodze.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -210,6 +230,63 @@
             alt=""
           />
         </h2>
+
+        <div class="contactForm__additionalInfo">
+          <div class="contactForm__addInfoContainer">
+            <h2 class="contactForm__addHeading">Tutaj nas znajdziesz</h2>
+            <ul class="contact__list">
+              <li class="contact__listItem">
+                <a class="contact__link" href=""
+                  ><img
+                    class="contact__listIcon"
+                    src="./images/location-icon2.png"
+                    alt=""
+                  /><span class="contactName--localization"
+                    >Olkusz, ul. Wiejska 12a</span
+                  ></a
+                >
+              </li>
+              <li class="contact__listItem">
+                <a class="contact__link" href=""
+                  ><img
+                    class="contact__listIcon"
+                    src="./images/clock.png"
+                    alt=""
+                  /><span class="contactName--open">Codziennie* 9-17</span></a
+                >
+              </li>
+            </ul>
+
+            <span class="contactName__hours"
+              >*Z wyłączeniem niedziel i świąt.</span
+            >
+          </div>
+
+          <div class="contactForm__addInfoContainer">
+            <h2 class="contactForm__addHeading">Tutaj zadzwonisz</h2>
+
+            <ul class="contact__list">
+              <li class="contact__listItem">
+                <a class="contact__link" href=""
+                  ><img
+                    class="contact__listIcon"
+                    src="./images/phone.png"
+                    alt=""
+                  /><span class="contactName">Marcin</span></a
+                >
+              </li>
+              <li class="contact__listItem">
+                <a class="contact__link" href=""
+                  ><img
+                    class="contact__listIcon"
+                    src="./images/phone.png"
+                    alt=""
+                  /><span class="contactName">Grzegorz</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
 
         <div class="contactForm__text">
           <span class="contactForm__span"
@@ -235,23 +312,33 @@
                 ><span class="contact__FormLabelSpan"
                   >Adres email:*
                 </span></label
-              ><input class="contactForm__input" id="email" type="text" />
+              ><input
+                class="contactForm__input js-emailAddress"
+                id="email"
+                required
+                type="text"
+              />
               <label for="phone_number" class="contactForm__label">
                 <span class="contact__FormLabelSpan"
                   >Numer kontaktowy:
                 </span></label
               >
-              <input class="contactForm__input" id="phone_number" type="text" />
+              <input
+                class="contactForm__input js-phoneNumber"
+                id="phone_number"
+                type="text"
+              />
               <label for="message" class="contactForm__label"
                 ><span class="contact__FormLabelSpan"
                   >Twoja wiadomość:*
                 </span></label
               ><textarea
-                class="contactForm__input contactForm__input--message"
+                required
+                class="contactForm__input contactForm__input--message js-message"
                 id="message"
               ></textarea>
 
-              <div class="contactForm__message">
+              <div class="contactForm__message js-contactFormMsg">
                 <img
                   class="contactForm__messageIcon"
                   src="./images/checkmark-icon.png"
@@ -262,7 +349,7 @@
                 >
               </div>
 
-              <button type="submit" class="contactForm__submitBtn">
+              <button type="submit" class="contactForm__submitBtn js-submitBtn">
                 Wyślij
               </button>
             </form>
@@ -297,7 +384,6 @@
                   <a class="footer__link" href="">Contact</a>
                 </li>
               </ul>
-              <!-- <span class="footer__copy">Gregmar &copy; 2024</span> -->
             </div>
           </div>
         </div>

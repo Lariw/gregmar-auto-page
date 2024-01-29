@@ -125,13 +125,12 @@
   align-items: center;
   flex-direction: column;
   padding: 15px;
-  gap:10px;
+  gap: 10px;
 }
 
 .back > h2 {
   text-align: center;
 }
-
 
 .front {
   display: flex;
