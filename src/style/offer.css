@@ -89,6 +89,7 @@
 .flipContainer {
   padding: 40px;
   perspective: 1200px;
+  font-size: 15px;
 }
 
 .flipContainer:hover > .card {
@@ -122,8 +123,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 15px;
+  gap:10px;
 }
+
+.back > h2 {
+  text-align: center;
+}
+
 
 .front {
   display: flex;

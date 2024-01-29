@@ -35,8 +35,8 @@
           <div class="nav__links">
             <ul class="nav__list">
               <li class="nav__li"><a class="nav__a" href="">Home</a></li>
-              <li class="nav__li"><a class="nav__a" href="">O nas</a></li>
-              <li class="nav__li"><a class="nav__a" href="">Blog</a></li>
+              <li class="nav__li"><a class="nav__a" href="">Galeria</a></li>
+              <li class="nav__li"><a class="nav__a" href="">Oferta</a></li>
               <li class="nav__li">
                 <a class="nav__a" href="">Kontakt</a>
               </li>
@@ -117,9 +117,10 @@
                 </div>
 
                 <div class="back">
-                  Serwis i wymiana opon: Profesjonalnie zajmujemy się serwisem i
-                  wymianą opon, zapewniając Ci bezpieczną jazdę oraz optymalną
-                  przyczepność na każdej nawierzchni.
+                  <h2>Serwis i wymiana opon</h2>
+                  Profesjonalnie zajmujemy się serwisem i wymianą opon,
+                  zapewniając Ci bezpieczną jazdę oraz optymalną przyczepność na
+                  każdej nawierzchni.
                 </div>
               </div>
             </div>
@@ -135,9 +136,10 @@
                 </div>
 
                 <div class="back">
-                  Sezonowe przeglądy: Nasze sezonowe przeglądy sprawią, że Twój
-                  pojazd będzie gotowy na każdą porę roku, zapewniając Ci
-                  pewność i bezawaryjną podróż przez cały rok.
+                  <h2>Sezonowe przeglądy</h2>
+                  Nasze sezonowe przeglądy sprawią, że Twój pojazd będzie gotowy
+                  na każdą porę roku, zapewniając Ci pewność i bezawaryjną
+                  podróż przez cały rok.
                 </div>
               </div>
             </div>
@@ -152,9 +154,10 @@
                 </div>
 
                 <div class="back">
-                  Mechanika pojazdowa: Nasza wyszkolona ekipa mechaników zajmuje
-                  się kompleksową naprawą i konserwacją pojazdów, dbając o ich
-                  sprawne działanie i długotrwałą wydajność.
+                  <h2>Mechanika pojazdowa</h2>
+                  Nasza wyszkolona ekipa mechaników zajmuje się kompleksową
+                  naprawą i konserwacją pojazdów, dbając o ich sprawne działanie
+                  i długotrwałą wydajność.
                 </div>
               </div>
             </div>
@@ -169,9 +172,10 @@
                 </div>
 
                 <div class="back">
-                  Pranie tapicerki: Dajemy Twojej tapicerce nowe życie poprzez
-                  profesjonalne pranie, usuwając wszelkie zabrudzenia i
-                  przywracając jej świeży i czysty wygląd.
+                  <h2>Pranie tapicerki</h2>
+                  Dajemy Twojej tapicerce nowe życie poprzez profesjonalne
+                  pranie, usuwając wszelkie zabrudzenia i przywracając jej
+                  świeży i czysty wygląd.
                 </div>
               </div>
             </div>
@@ -186,10 +190,10 @@
                 </div>
 
                 <div class="back">
-                  Polerowanie lamp oraz karoserii: Dzięki naszym usługom
-                  polerowania lamp i karoserii Twój pojazd odzyska blask i
-                  estetyczny wygląd, sprawiając, że będzie się wyróżniał na
-                  drodze.
+                  <h2>Polerowanie lamp oraz karoserii</h2>
+                  Dzięki naszym usługom polerowania lamp i karoserii Twój pojazd
+                  odzyska blask i estetyczny wygląd, sprawiając, że będzie się
+                  wyróżniał na drodze.
                 </div>
               </div>
             </div>
@@ -229,7 +233,7 @@
             <form class="contactForm__form">
               <label for="email" class="contactForm__label"
                 ><span class="contact__FormLabelSpan"
-                  >Adres email:
+                  >Adres email:*
                 </span></label
               ><input class="contactForm__input" id="email" type="text" />
               <label for="phone_number" class="contactForm__label">
@@ -240,12 +244,23 @@
               <input class="contactForm__input" id="phone_number" type="text" />
               <label for="message" class="contactForm__label"
                 ><span class="contact__FormLabelSpan"
-                  >Twoja wiadomość:
+                  >Twoja wiadomość:*
                 </span></label
               ><textarea
                 class="contactForm__input contactForm__input--message"
                 id="message"
               ></textarea>
+
+              <div class="contactForm__message">
+                <img
+                  class="contactForm__messageIcon"
+                  src="./images/checkmark-icon.png"
+                  alt=""
+                /><span
+                  >Dziękujemy za wiadomość, skontaktujemy się najszybciej jak to
+                  możliwe!</span
+                >
+              </div>
 
               <button type="submit" class="contactForm__submitBtn">
                 Wyślij
@@ -282,7 +297,7 @@
                   <a class="footer__link" href="">Contact</a>
                 </li>
               </ul>
-              <span class="footer__copy">Gregmar &copy; 2024</span>
+              <!-- <span class="footer__copy">Gregmar &copy; 2024</span> -->
             </div>
           </div>
         </div>
@@ -350,44 +365,10 @@
             </ul>
           </div>
         </div>
+      </div>
 
-        <div class="footer__container">
-          <h4 class="footer__heading">
-            O nas
-            <img
-              class="footer__headingIcon"
-              src="./images/about-us.png"
-              alt=""
-            />
-          </h4>
-
-          <div class="footer__aboutContainer">
-            <span>Nasz warsztat czeka na kolejnych stałych klientów!</span>
-          </div>
-
-          <div class="footer__socialIconsContainer">
-            <ul class="footer__socialIconsUl">
-              <li class="footer__socialIcons">
-                <div class="footer__iconContainer">
-                  <img
-                    class="footer__imageIcons footer__imageIcons--bigger"
-                    src="./images/facebook.png"
-                    alt=""
-                  />
-                </div>
-              </li>
-              <li class="footer__socialIcons">
-                <div class="footer__iconContainer">
-                  <img
-                    class="footer__imageIcons footer__imageIcons--bigger"
-                    src="./images/instagram.png"
-                    alt=""
-                  />
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
+      <div class="footer__copywright">
+        <span class="footer__copy">Gregmar &copy; 2024</span>
       </div>
     </footer>
   </body>

@@ -1,15 +1,27 @@
-.footer {
+footer {
   background-color: rgb(53, 53, 53);
+}
+
+.footer {
   color: #fff;
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
   font-size: 13px;
   flex-direction: row;
 }
 
 .footer__container {
-  width: 34%;
+  width: 50%;
+}
+
+.footer__copywright {
+  width: 80%;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+  border-top: 1px solid #ffffff65;
+  color: #fff;
 }
 
 .footer__heading {
