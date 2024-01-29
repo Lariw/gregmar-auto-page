@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gregmar page</title>
+    <title>GREGMAR - Auto serwis</title>
     <link rel="stylesheet" href="./style/nav.css" />
     <link rel="stylesheet" href="./style/main.css" />
     <link rel="stylesheet" href="./style/header.css" />
@@ -23,7 +23,7 @@
     <script defer src="./script/contact-form.js"></script>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="home_section">
       <nav class="nav">
         <div class="loadingScroll-bar js-loadingScroll"></div>
         <div class="nav">
@@ -35,11 +35,15 @@
           </div>
           <div class="nav__links">
             <ul class="nav__list">
-              <li class="nav__li"><a class="nav__a" href="">Home</a></li>
-              <li class="nav__li"><a class="nav__a" href="">Galeria</a></li>
-              <li class="nav__li"><a class="nav__a" href="">Oferta</a></li>
               <li class="nav__li">
-                <a class="nav__a" href="">Kontakt</a>
+                <a class="nav__a" href="#home_section">Home</a>
+              </li>
+              <li class="nav__li"><a class="nav__a" href="">Galeria</a></li>
+              <li class="nav__li">
+                <a class="nav__a" href="#offer_section">Oferta</a>
+              </li>
+              <li class="nav__li">
+                <a class="nav__a" href="#contact_section">Kontakt</a>
               </li>
             </ul>
           </div>
@@ -96,7 +100,7 @@
     </header>
 
     <div class="mainSection">
-      <section class="offer">
+      <section class="offer" id="offer_section">
         <div class="containerGrid">
           <h2 class="offer__heading">
             Co możemy zaoferować?
@@ -221,7 +225,7 @@
         </div>
       </section>
 
-      <section class="contactForm">
+      <section class="contactForm" id="contact_section">
         <h2 class="contactForm__heading">
           Skontaktuj się z nami
           <img
@@ -236,7 +240,10 @@
             <h2 class="contactForm__addHeading">Tutaj nas znajdziesz</h2>
             <ul class="contact__list">
               <li class="contact__listItem">
-                <a class="contact__link" href=""
+                <a
+                  class="contact__link"
+                  target="_blank"
+                  href="https://www.google.com/maps/dir//Wiejska+11A,+32-300+Olkusz/@50.2803078,19.4902687,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x4716e3a421ca37a1:0x2b65029fe6c0b2b4!2m2!1d19.572669!2d50.2803369?entry=ttu"
                   ><img
                     class="contact__listIcon"
                     src="./images/location-icon2.png"
@@ -247,12 +254,14 @@
                 >
               </li>
               <li class="contact__listItem">
-                <a class="contact__link" href=""
+                <span class="contact__link" href=""
                   ><img
                     class="contact__listIcon"
                     src="./images/clock.png"
                     alt=""
-                  /><span class="contactName--open">Codziennie* 9-17</span></a
+                  /><span class="contactName--open"
+                    >Codziennie* 9-17</span
+                  ></span
                 >
               </li>
             </ul>
@@ -267,20 +276,20 @@
 
             <ul class="contact__list">
               <li class="contact__listItem">
-                <a class="contact__link" href=""
+                <a class="contact__link" href="tel:+48507373588"
                   ><img
                     class="contact__listIcon"
                     src="./images/phone.png"
-                    alt=""
+                    alt="phone icon"
                   /><span class="contactName">Marcin</span></a
                 >
               </li>
               <li class="contact__listItem">
-                <a class="contact__link" href=""
+                <a class="contact__link" href="tel:+48882640833"
                   ><img
                     class="contact__listIcon"
                     src="./images/phone.png"
-                    alt=""
+                    alt="phone icon"
                   /><span class="contactName">Grzegorz</span></a
                 >
               </li>
@@ -316,7 +325,7 @@
                 class="contactForm__input js-emailAddress"
                 id="email"
                 required
-                type="text"
+                type="email"
               />
               <label for="phone_number" class="contactForm__label">
                 <span class="contact__FormLabelSpan"
@@ -358,103 +367,11 @@
       </section>
     </div>
     <footer>
-      <div class="footer">
-        <div class="footer__container">
-          <div>
-            <h2 class="footer__heading">
-              Gregmar
-              <img
-                class="footer__headingIcon"
-                src="./images/favicon.webp"
-                alt=""
-              />
-            </h2>
-            <div class="footer__div">
-              <ul class="footer__links">
-                <li class="footer__listItem">
-                  <a class="footer__link" href="">Home</a>
-                </li>
-                <li class="footer__listItem">
-                  <a class="footer__link" href="">About</a>
-                </li>
-                <li class="footer__listItem">
-                  <a class="footer__link" href="">Blog</a>
-                </li>
-                <li class="footer__listItem">
-                  <a class="footer__link" href="">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="footer__container">
-          <div>
-            <h3 class="footer__heading">
-              Kontakt
-              <img
-                class="footer__headingIcon"
-                src="./images/phone.png"
-                alt=""
-              />
-            </h3>
-            <ul class="footer__UnOltags">
-              <li class="footer__tags">
-                <a class="footer__link--contact" href=""
-                  ><div class="footer__iconContainer">
-                    <img
-                      class="footer__imageIcons"
-                      src="./images/locationIcon.png"
-                      alt=""
-                    />
-                  </div>
-                  <span class="footer__contact">Olkusz, ul Wiejska 123</span></a
-                >
-              </li>
-              <li class="footer__tags">
-                <a class="footer__link--contact" href=""
-                  ><div class="footer__iconContainer">
-                    <img
-                      class="footer__imageIcons"
-                      src="./images/phoneIcon.png"
-                      alt=""
-                    />
-                  </div>
-                  <span class="footer__contact">+48 534 453 345</span></a
-                >
-              </li>
-              <li class="footer__tags">
-                <a class="footer__link--contact" href=""
-                  ><div class="footer__iconContainer">
-                    <img
-                      class="footer__imageIcons"
-                      src="./images/phoneIcon.png"
-                      alt=""
-                    />
-                  </div>
-                  <span class="footer__contact">+48 834 853 845</span></a
-                >
-              </li>
-              <li class="footer__tags">
-                <a class="footer__link--contact" href=""
-                  ><div class="footer__iconContainer">
-                    <img
-                      class="footer__imageIcons"
-                      src="./images/emailIcon.png"
-                      alt=""
-                    />
-                  </div>
-                  <span class="footer__contact"
-                    >gregmarauto@contact.com</span
-                  ></a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
       <div class="footer__copywright">
-        <span class="footer__copy">Gregmar &copy; 2024</span>
+        <span class="footer__copy"
+          >Copyright &copy; 2024 GREGMAR
+          <span class="footer__companyName">| Powered by DeepCode</span></span
+        >
       </div>
     </footer>
   </body>
