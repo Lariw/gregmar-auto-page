@@ -217,20 +217,21 @@
 }
 
 .nav__li--hamburger {
-  width: 100%;
   padding: 23px 25px;
   text-align: center;
-  width: 80%;
-  margin: 0 auto;
   font-weight: bold;
   border-bottom: 1px solid #ccc;
 }
 
 .nav__li--hamburger:hover {
+  background-color: rgba(201, 201, 201, 0.651);
+}
+
+.nav__li--hamburger:active {
   background-color: rgba(26, 26, 26, 0.651);
-  color: crimson;
 }
 .nav__a--hamburger {
+  display: block;
   font-family: "Tektur", sans-serif;
   text-decoration: none;
   color: #000;
