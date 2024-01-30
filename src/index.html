@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GREGMAR - Auto serwis</title>
+    <meta
+      name="description"
+      content="Gregmar - Mechanika pojazdowa, serwis i wymiana opon w Olkuszu, ul. Wiejska 11A. Profesjonalne usługi dla Twojego samochodu. Zapraszamy po fachową obsługę i konkurencyjne ceny."
+    />
+    <title>GREGMAR - Mechanika pojazdowa</title>
     <link rel="stylesheet" href="./style/nav.css" />
     <link rel="stylesheet" href="./style/main.css" />
     <link rel="stylesheet" href="./style/header.css" />
@@ -21,6 +25,17 @@
     <script defer src="./script/navigaition-scroll-bar.js"></script>
     <script defer src="./script/hamburgerMenu.js"></script>
     <script defer src="./script/contact-form.js"></script>
+    <script defer src="./script/forms.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("1XfxuN4RvSm84YOwq");
+      })();
+    </script>
   </head>
   <body>
     <header class="header" id="home_section">
@@ -30,7 +45,12 @@
           <div class="nav__containerImage">
             <span class="nav__logo"
               >Gregmar
-              <img class="nav__logoImage" src="./images/favicon.webp" alt="" />
+              <img
+                class="nav__logoImage"
+                src="./images/favicon.webp"
+                alt="Gregmar page logo"
+                width="30"
+              />
             </span>
           </div>
           <div class="nav__links">
@@ -107,7 +127,7 @@
             <img
               class="offer__shoppingCardIcon"
               src="./images/shopping-card.png"
-              alt=""
+              alt="Shopping card"
             />
           </h2>
           <div class="offer__gridContainer">
@@ -117,7 +137,7 @@
                   <img
                     class="flipCard__icon"
                     src="./images/tire-icon.png"
-                    alt=""
+                    alt="Tire icon"
                   />
                 </div>
 
@@ -136,7 +156,7 @@
                   <img
                     class="flipCard__icon"
                     src="./images/inspection.png"
-                    alt=""
+                    alt="Inspection icon"
                   />
                 </div>
 
@@ -154,7 +174,7 @@
                   <img
                     class="flipCard__icon"
                     src="./images/mechanic-drill.png"
-                    alt=""
+                    alt="Mechanic drill icon"
                   />
                 </div>
 
@@ -172,7 +192,7 @@
                   <img
                     class="flipCard__icon"
                     src="./images/clean-car.png"
-                    alt=""
+                    alt="Clean car icon"
                   />
                 </div>
 
@@ -190,7 +210,7 @@
                   <img
                     class="flipCard__icon"
                     src="./images/car-lamp.png"
-                    alt=""
+                    alt="Lamp icon"
                   />
                 </div>
 
@@ -209,7 +229,7 @@
                   <img
                     class="flipCard__icon"
                     src="./images/car-lamp.png"
-                    alt=""
+                    alt="Lamp icon"
                   />
                 </div>
 
@@ -231,7 +251,7 @@
           <img
             class="contactForm__Mailicon"
             src="./images/email-message.png"
-            alt=""
+            alt="Email icon"
           />
         </h2>
 
@@ -247,7 +267,7 @@
                   ><img
                     class="contact__listIcon"
                     src="./images/location-icon2.png"
-                    alt=""
+                    alt="Location icon"
                   /><span class="contactName--localization"
                     >Olkusz, ul. Wiejska 12a</span
                   ></a
@@ -258,7 +278,7 @@
                   ><img
                     class="contact__listIcon"
                     src="./images/clock.png"
-                    alt=""
+                    alt="Clock icon"
                   /><span class="contactName--open"
                     >Codziennie* 9-17</span
                   ></span
@@ -280,7 +300,7 @@
                   ><img
                     class="contact__listIcon"
                     src="./images/phone.png"
-                    alt="phone icon"
+                    alt="Phone icon"
                   /><span class="contactName">Marcin</span></a
                 >
               </li>
@@ -289,7 +309,7 @@
                   ><img
                     class="contact__listIcon"
                     src="./images/phone.png"
-                    alt="phone icon"
+                    alt="Phone icon"
                   /><span class="contactName">Grzegorz</span></a
                 >
               </li>
@@ -312,7 +332,7 @@
             <img
               class="formContainer__map"
               src="./images/exampleMap.jpg"
-              alt=""
+              alt="Map image"
             />
           </div>
           <div class="contactForm__formContainer">
@@ -351,7 +371,7 @@
                 <img
                   class="contactForm__messageIcon"
                   src="./images/checkmark-icon.png"
-                  alt=""
+                  alt="Checkmark icon"
                 /><span
                   >Dziękujemy za wiadomość, skontaktujemy się najszybciej jak to
                   możliwe!</span
