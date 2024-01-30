@@ -4,19 +4,6 @@
     ".js-hamburgerMenuContainer"
   );
 
-  const menuLinks = document.querySelectorAll(".js-menuAnchor");
-
-  // const scroll = () => {
-  //   menuLinks.forEach((link) => {
-  //     link.addEventListener("click", (event) => {
-  //       event.preventDefault();
-
-  //       link.href.scrollIntoView();
-  //       console.log("scrolling");
-  //     });
-  //   });
-  // };
-
   const scroll = () => {
     const menuLinks = document.querySelectorAll('a[href^="#"]');
 
