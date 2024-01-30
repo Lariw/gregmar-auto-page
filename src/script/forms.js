@@ -1,5 +1,4 @@
 (() => {
-  const submitBtn = document.querySelector(".js-submitBtn");
   const form = document.querySelector("form");
   const sendMail = (name, message, phoneNumber) => {
     const params = {
