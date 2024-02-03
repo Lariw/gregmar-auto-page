@@ -30,6 +30,7 @@
     element.addEventListener("click", () => {
       hamburgerContainer.classList.toggle("nav__hamburgerClose");
       hamburgerContainer.classList.toggle("nav__hamburgerOpen");
+      hamburgerBtn.checked = false;
     });
   });
 
