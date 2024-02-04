@@ -31,6 +31,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+    font-size: 30px;
   }
 }
 
@@ -46,6 +47,13 @@
 .offer__shoppingCardIcon {
   width: 60px;
   margin-left: 15px;
+}
+
+@media only screen and (max-width: 650px) {
+  .offer__shoppingCardIcon {
+    width: 35px;
+    margin-top: 15px;
+  }
 }
 
 @media only screen and (max-width: 410px) {
@@ -73,7 +81,7 @@
   grid-auto-rows: minmax(300px, 1fr);
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 650px) {
   .offer__gridContainer {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -94,6 +102,12 @@
 .flipContainer:hover > .card {
   cursor: pointer;
   transform: rotateY(180deg);
+}
+
+@media only screen and (max-width: 768px) {
+  .flipContainer.active>.card {
+    transform: rotateY(180deg);
+  }
 }
 
 .card {
