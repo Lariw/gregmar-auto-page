@@ -14,7 +14,8 @@ body {
   justify-content: center;
   text-align: center;
   font-size: 45px;
-  padding: 20px;
+  padding-top: 80px;
+  padding-bottom: 20px;
   text-transform: uppercase;
   color: #000;
   font-family: "Tektur", sans-serif;
@@ -23,6 +24,8 @@ body {
 @media only screen and (max-width: 500px) {
   .sectionTitle {
     font-size: 35px;
+    padding-top: 40px;
+    padding-bottom: 10px;
   }
 }
 

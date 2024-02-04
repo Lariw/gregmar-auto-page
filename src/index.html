@@ -1,529 +1,347 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="index, follow" />
-    <meta
-      name="keywords"
-      content="gregmar, mechanika, mechanik, olkusz mechanik, wymiana opon, naprawa, serwis samochodowy olkusz"
-    />
 
-    <title>GREGMAR - Mechanika pojazdowa</title>
-    <meta
-      name="description"
-      content="Gregmar - Mechanika pojazdowa, serwis i wymiana opon w Olkuszu, ul. Wiejska 11A. Profesjonalne usługi dla Twojego samochodu. Zapraszamy po fachową obsługę i konkurencyjne ceny."
-    />
-    <meta property="og:url" content="https://gregmarauto.pl" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="GREGMAR - Mechanika pojazdowa" />
-    <meta
-      property="og:description"
-      content="Gregmar - Mechanika pojazdowa, serwis i wymiana opon w Olkuszu, ul. Wiejska 11A. Profesjonalne usługi dla Twojego samochodu. Zapraszamy po fachową obsługę i konkurencyjne ceny."
-    />
-    <meta
-      property="og:image"
-      content="https://opengraph.b-cdn.net/production/documents/3743d8ff-cdcf-4ae0-893d-be03c6c7239b.png?token=QNjqe7iL_5T8c61ru4EfFG8MQULlwFFXUAw-oY0RXzw&height=630&width=1200&expires=33242740591"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords"
+    content="gregmar, mechanika, mechanik, olkusz mechanik, wymiana opon, naprawa, serwis samochodowy olkusz" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:domain" content="gregmarauto.pl" />
-    <meta property="twitter:url" content="https://gregmarauto.pl" />
-    <meta name="twitter:title" content="GREGMAR - Mechanika pojazdowa" />
-    <meta
-      name="twitter:description"
-      content="Gregmar - Mechanika pojazdowa, serwis i wymiana opon w Olkuszu, ul. Wiejska 11A. Profesjonalne usługi dla Twojego samochodu. Zapraszamy po fachową obsługę i konkurencyjne ceny."
-    />
-    <meta
-      name="twitter:image"
-      content="https://opengraph.b-cdn.net/production/documents/3743d8ff-cdcf-4ae0-893d-be03c6c7239b.png?token=QNjqe7iL_5T8c61ru4EfFG8MQULlwFFXUAw-oY0RXzw&height=630&width=1200&expires=33242740591"
-    />
+  <title>GREGMAR - Mechanika pojazdowa</title>
+  <meta name="description"
+    content="Gregmar - Mechanika pojazdowa, serwis i wymiana opon w Olkuszu, ul. Wiejska 11A. Profesjonalne usługi dla Twojego samochodu. Zapraszamy po fachową obsługę i konkurencyjne ceny." />
+  <meta property="og:url" content="https://gregmarauto.pl" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="GREGMAR - Mechanika pojazdowa" />
+  <meta property="og:description"
+    content="Gregmar - Mechanika pojazdowa, serwis i wymiana opon w Olkuszu, ul. Wiejska 11A. Profesjonalne usługi dla Twojego samochodu. Zapraszamy po fachową obsługę i konkurencyjne ceny." />
+  <meta property="og:image"
+    content="https://opengraph.b-cdn.net/production/documents/3743d8ff-cdcf-4ae0-893d-be03c6c7239b.png?token=QNjqe7iL_5T8c61ru4EfFG8MQULlwFFXUAw-oY0RXzw&height=630&width=1200&expires=33242740591" />
 
-    <link rel="stylesheet" href="./style/nav.css" />
-    <link rel="stylesheet" href="./style/main.css" />
-    <link rel="stylesheet" href="./style/header.css" />
-    <link rel="stylesheet" href="./style/footer.css" />
-    <link rel="stylesheet" href="./style/offer.css" />
-    <link rel="stylesheet" href="./style/gallery.css" />
-    <link rel="icon" type="image/x-icon" href="./images/favicon.webp" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="stylesheet" href="./style/contact-form.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Tektur:wght@400;900&display=swap"
-      rel="stylesheet"
-    />
-    <script defer src="./script/gallery.js"></script>
-    <script defer src="./script/navigaition-scroll-bar.js"></script>
-    <script defer src="./script/hamburgerMenu.js"></script>
-    <script defer src="./script/forms.js"></script>
-    <script defer src="./script/flip-cards.js"></script>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-    ></script>
-    <script type="text/javascript">
-      (function () {
-        emailjs.init("1XfxuN4RvSm84YOwq");
-      })();
-    </script>
-  </head>
-  <body>
-    <header class="header" id="home_section">
-      <nav class="nav">
-        <div class="loadingScroll-bar js-loadingScroll"></div>
-        <div class="nav">
-          <div class="nav__containerImage">
-            <span class="nav__logo"
-              >Gregmar
-              <img
-                class="nav__logoImage"
-                src="./images/favicon.webp"
-                alt="Gregmar page logo"
-                width="30"
-              />
-            </span>
-          </div>
-          <div class="nav__links">
-            <ul class="nav__list">
-              <li class="nav__li">
-                <a class="nav__a" href="#home_section">Home</a>
-              </li>
-              <li class="nav__li"><span class="nav__a">Galeria</span></li>
-              <li class="nav__li">
-                <a class="nav__a" href="#offer_section">Oferta</a>
-              </li>
-              <li class="nav__li">
-                <a class="nav__a" href="#contact_section">Kontakt</a>
-              </li>
-            </ul>
-          </div>
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="twitter:domain" content="gregmarauto.pl" />
+  <meta property="twitter:url" content="https://gregmarauto.pl" />
+  <meta name="twitter:title" content="GREGMAR - Mechanika pojazdowa" />
+  <meta name="twitter:description"
+    content="Gregmar - Mechanika pojazdowa, serwis i wymiana opon w Olkuszu, ul. Wiejska 11A. Profesjonalne usługi dla Twojego samochodu. Zapraszamy po fachową obsługę i konkurencyjne ceny." />
+  <meta name="twitter:image"
+    content="https://opengraph.b-cdn.net/production/documents/3743d8ff-cdcf-4ae0-893d-be03c6c7239b.png?token=QNjqe7iL_5T8c61ru4EfFG8MQULlwFFXUAw-oY0RXzw&height=630&width=1200&expires=33242740591" />
 
-          <div class="nav__hamburgerNav">
-            <div class="nav__iconContainer">
-              <input
-                type="checkbox"
-                id="checkbox1"
-                class="checkbox1 js-hamburgerBtn visuallyHidden"
-              />
-              <label for="checkbox1">
-                <div class="hamburger hamburger1">
-                  <span class="bar bar1"></span>
-                  <span class="bar bar2"></span>
-                  <span class="bar bar3"></span>
-                  <span class="bar bar4"></span>
-                </div>
-              </label>
+  <link rel="stylesheet" href="./style/nav.css" />
+  <link rel="stylesheet" href="./style/main.css" />
+  <link rel="stylesheet" href="./style/header.css" />
+  <link rel="stylesheet" href="./style/footer.css" />
+  <link rel="stylesheet" href="./style/offer.css" />
+  <link rel="stylesheet" href="./style/gallery.css" />
+  <link rel="icon" type="image/x-icon" href="./images/favicon.webp" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="./style/contact-form.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Tektur:wght@400;900&display=swap"
+    rel="stylesheet" />
+  <script defer src="./script/gallery.js"></script>
+  <script defer src="./script/navigaition-scroll-bar.js"></script>
+  <script defer src="./script/hamburgerMenu.js"></script>
+  <script defer src="./script/forms.js"></script>
+  <script defer src="./script/flip-cards.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("1XfxuN4RvSm84YOwq");
+    })();
+  </script>
+</head>
 
-              <div
-                class="nav__hamburgerNavContainer nav__hamburgerClose js-hamburgerMenuContainer"
-              >
-                <ul class="nav__list--hamburger">
-                  <li class="nav__li--hamburger">
-                    <a
-                      class="nav__a--hamburger js-hamburgerEl"
-                      href="#home_section"
-                      ><span class="nav__hamburgerSpan">Home</span></a
-                    >
-                  </li>
-                  <li class="nav__li--hamburger">
-                    <span class="nav__a--hamburger"
-                      ><span class="nav__hamburgerSpan">Galeria</span></span
-                    >
-                  </li>
-                  <li class="nav__li--hamburger">
-                    <a
-                      class="nav__a--hamburger js-hamburgerEl"
-                      href="#offer_section"
-                      ><span class="nav__hamburgerSpan">Oferta</span></a
-                    >
-                  </li>
-                  <li class="nav__li--hamburger">
-                    <a
-                      class="nav__a--hamburger js-hamburgerEl"
-                      href="#contact_section"
-                      ><span class="nav__hamburgerSpan">Kontakt</span></a
-                    >
-                  </li>
-                </ul>
+<body>
+  <header class="header" id="home_section">
+    <nav class="nav">
+      <div class="loadingScroll-bar js-loadingScroll"></div>
+      <div class="nav">
+        <div class="nav__containerImage">
+          <span class="nav__logo">Gregmar
+            <img class="nav__logoImage" src="./images/favicon.webp" alt="Gregmar page logo" width="30" />
+          </span>
+        </div>
+        <div class="nav__links">
+          <ul class="nav__list">
+            <li class="nav__li">
+              <a class="nav__a" href="#home_section">Home</a>
+            </li>
+            <li class="nav__li"><a href="#gallery" class="nav__a">Galeria</a></li>
+            <li class="nav__li">
+              <a class="nav__a" href="#offer_section">Oferta</a>
+            </li>
+            <li class="nav__li">
+              <a class="nav__a" href="#contact_section">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__hamburgerNav">
+          <div class="nav__iconContainer">
+            <input type="checkbox" id="checkbox1" class="checkbox1 js-hamburgerBtn visuallyHidden" />
+            <label for="checkbox1">
+              <div class="hamburger hamburger1">
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+                <span class="bar bar4"></span>
               </div>
+            </label>
+
+            <div class="nav__hamburgerNavContainer nav__hamburgerClose js-hamburgerMenuContainer">
+              <ul class="nav__list--hamburger">
+                <li class="nav__li--hamburger">
+                  <a class="nav__a--hamburger js-hamburgerEl" href="#home_section"><span
+                      class="nav__hamburgerSpan">Home</span></a>
+                </li>
+                <li class="nav__li--hamburger">
+                  <span class="nav__a--hamburger"><a href="#gallery" class="nav__hamburgerSpan">Galeria</span></a>
+                </li>
+                <li class="nav__li--hamburger">
+                  <a class="nav__a--hamburger js-hamburgerEl" href="#offer_section"><span
+                      class="nav__hamburgerSpan">Oferta</span></a>
+                </li>
+                <li class="nav__li--hamburger">
+                  <a class="nav__a--hamburger js-hamburgerEl" href="#contact_section"><span
+                      class="nav__hamburgerSpan">Kontakt</span></a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-      </nav>
-      <div class="header__heading">
-        <h1 class="header__h1">Gregmar</h1>
-
-        <span class="span"
-          >Nasz serwis samochodowy to miejsce, gdzie twój pojazd otrzyma
-          najlepszą opiekę, a Ty cieszysz się bezpieczną podróżą na każdej
-          trasie!</span
-        >
-
-        <button class="header__btn">Zobacz więcej!</button>
       </div>
-    </header>
-    <section class="offer" id="offer_section">
-      <div class="section__frame">
-        <div class="containerGrid">
-          <h2 class="sectionTitle">Nasza oferta</h2>
-          <div class="offer__gridContainer">
-            <div class="flipContainer">
-              <div class="card">
-                <div class="front">
-                  <img
-                    class="flipCard__icon"
-                    src="./images/tire-icon.png"
-                    alt="Tire icon"
-                  />
-                </div>
+    </nav>
+    <div class="header__heading">
+      <h1 class="header__h1">Gregmar</h1>
 
-                <div class="back">
-                  <h2>Serwis i wymiana opon</h2>
-                  Profesjonalnie zajmujemy się serwisem i wymianą opon,
-                  zapewniając Ci bezpieczną jazdę oraz optymalną przyczepność na
-                  każdej nawierzchni.
-                </div>
+      <span class="span">Nasz serwis samochodowy to miejsce, gdzie twój pojazd otrzyma
+        najlepszą opiekę, a Ty cieszysz się bezpieczną podróżą na każdej
+        trasie!</span>
+
+      <button class="header__btn">Zobacz więcej!</button>
+    </div>
+  </header>
+  <section class="offer" id="offer_section">
+    <div class="section__frame">
+      <div class="containerGrid">
+        <h2 class="sectionTitle">Nasza oferta</h2>
+        <div class="offer__gridContainer">
+          <div class="flipContainer">
+            <div class="card">
+              <div class="front">
+                <img class="flipCard__icon" src="./images/tire-icon.png" alt="Tire icon" />
+              </div>
+
+              <div class="back">
+                <h2>Serwis i wymiana opon</h2>
+                Profesjonalnie zajmujemy się serwisem i wymianą opon,
+                zapewniając Ci bezpieczną jazdę oraz optymalną przyczepność na
+                każdej nawierzchni.
               </div>
             </div>
+          </div>
 
-            <div class="flipContainer">
-              <div class="card">
-                <div class="front">
-                  <img
-                    class="flipCard__icon"
-                    src="./images/inspection.png"
-                    alt="Inspection icon"
-                  />
-                </div>
+          <div class="flipContainer">
+            <div class="card">
+              <div class="front">
+                <img class="flipCard__icon" src="./images/inspection.png" alt="Inspection icon" />
+              </div>
 
-                <div class="back">
-                  <h2>Sezonowe przeglądy</h2>
-                  Nasze sezonowe przeglądy sprawią, że Twój pojazd będzie gotowy
-                  na każdą porę roku, zapewniając Ci pewność i bezawaryjną
-                  podróż przez cały rok.
-                </div>
+              <div class="back">
+                <h2>Sezonowe przeglądy</h2>
+                Nasze sezonowe przeglądy sprawią, że Twój pojazd będzie gotowy
+                na każdą porę roku, zapewniając Ci pewność i bezawaryjną
+                podróż przez cały rok.
               </div>
             </div>
-            <div class="flipContainer">
-              <div class="card">
-                <div class="front">
-                  <img
-                    class="flipCard__icon"
-                    src="./images/mechanic-drill.png"
-                    alt="Mechanic drill icon"
-                  />
-                </div>
+          </div>
+          <div class="flipContainer">
+            <div class="card">
+              <div class="front">
+                <img class="flipCard__icon" src="./images/mechanic-drill.png" alt="Mechanic drill icon" />
+              </div>
 
-                <div class="back">
-                  <h2>Mechanika pojazdowa</h2>
-                  Nasza wyszkolona ekipa mechaników zajmuje się kompleksową
-                  naprawą i konserwacją pojazdów, dbając o ich sprawne działanie
-                  i długotrwałą wydajność.
-                </div>
+              <div class="back">
+                <h2>Mechanika pojazdowa</h2>
+                Nasza wyszkolona ekipa mechaników zajmuje się kompleksową
+                naprawą i konserwacją pojazdów, dbając o ich sprawne działanie
+                i długotrwałą wydajność.
               </div>
             </div>
-            <div class="flipContainer">
-              <div class="card">
-                <div class="front">
-                  <img
-                    class="flipCard__icon"
-                    src="./images/clean-car.png"
-                    alt="Clean car icon"
-                  />
-                </div>
+          </div>
+          <div class="flipContainer">
+            <div class="card">
+              <div class="front">
+                <img class="flipCard__icon" src="./images/clean-car.png" alt="Clean car icon" />
+              </div>
 
-                <div class="back">
-                  <h2>Pranie tapicerki</h2>
-                  Dajemy Twojej tapicerce nowe życie poprzez profesjonalne
-                  pranie, usuwając wszelkie zabrudzenia i przywracając jej
-                  świeży i czysty wygląd.
-                </div>
+              <div class="back">
+                <h2>Pranie tapicerki</h2>
+                Dajemy Twojej tapicerce nowe życie poprzez profesjonalne
+                pranie, usuwając wszelkie zabrudzenia i przywracając jej
+                świeży i czysty wygląd.
               </div>
             </div>
-            <div class="flipContainer">
-              <div class="card">
-                <div class="front">
-                  <img
-                    class="flipCard__icon"
-                    src="./images/car-lamp.png"
-                    alt="Lamp icon"
-                  />
-                </div>
+          </div>
+          <div class="flipContainer">
+            <div class="card">
+              <div class="front">
+                <img class="flipCard__icon" src="./images/car-lamp.png" alt="Lamp icon" />
+              </div>
 
-                <div class="back">
-                  <h2>Polerowanie lamp oraz karoserii</h2>
-                  Dzięki naszym usługom polerowania lamp i karoserii Twój pojazd
-                  odzyska blask i estetyczny wygląd, sprawiając, że będzie się
-                  wyróżniał na drodze.
-                </div>
+              <div class="back">
+                <h2>Polerowanie lamp oraz karoserii</h2>
+                Dzięki naszym usługom polerowania lamp i karoserii Twój pojazd
+                odzyska blask i estetyczny wygląd, sprawiając, że będzie się
+                wyróżniał na drodze.
               </div>
             </div>
+          </div>
 
-            <div class="flipContainer">
-              <div class="card">
-                <div class="front">
-                  <img
-                    class="flipCard__icon"
-                    src="./images/car-lamp.png"
-                    alt="Lamp icon"
-                  />
-                </div>
+          <div class="flipContainer">
+            <div class="card">
+              <div class="front">
+                <img class="flipCard__icon" src="./images/car-lamp.png" alt="Lamp icon" />
+              </div>
 
-                <div class="back">
-                  <h2>Polerowanie lamp oraz karoserii</h2>
-                  Dzięki naszym usługom polerowania lamp i karoserii Twój pojazd
-                  odzyska blask i estetyczny wygląd, sprawiając, że będzie się
-                  wyróżniał na drodze.
-                </div>
+              <div class="back">
+                <h2>Polerowanie lamp oraz karoserii</h2>
+                Dzięki naszym usługom polerowania lamp i karoserii Twój pojazd
+                odzyska blask i estetyczny wygląd, sprawiając, że będzie się
+                wyróżniał na drodze.
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="gallery">
-      <div class="section__frame">
-        <h2 class="sectionTitle">Galeria</h2>
+  <section class="gallery">
+    <div class="section__frame">
+      <h2 id="gallery" class="sectionTitle">Galeria</h2>
 
-        <div class="gallery__container">
-          <div class="gallery__backgroundImage">
-            <div class="gallery__currentImageContainer">
-              <img
-                class="galleryArrowIcons js-arrowPrevious"
-                src="./images/arrow-left.png"
-                alt="Arrow left"
-              /><img
-                class="js-currentImage gallery__currentImage"
-                src="./images/car-3.jpg"
-                alt=""
-              />
-              <img
-                class="galleryArrowIcons js-arrowNext"
-                src="./images/arrow-right.png"
-                alt="Arrow right"
-              />
-            </div>
+      <div class="gallery__container">
+        <div class="gallery__backgroundImage">
+          <div class="gallery__currentImageContainer">
+            <img class="galleryArrowIcons js-arrowPrevious" src="./images/arrow-left.png" alt="Arrow left" /><img
+              class="js-currentImage gallery__currentImage" src="./images/car-3.webp" alt="" />
+            <img class="galleryArrowIcons js-arrowNext" src="./images/arrow-right.png" alt="Arrow right" />
+          </div>
 
-            <div class="gallery__previewImages">
-              <img
-                src="./images/car-3.jpg"
-                alt=""
-                class="gallery__currentImagePreview js-previewImage gallery__previewImage"
-              />
-              <img
-                src="./images/car-1.jpg"
-                alt=""
-                class="js-previewImage gallery__previewImage"
-              />
-              <img
-                src="./images/car-8.jpg"
-                alt=""
-                class="js-previewImage gallery__previewImage"
-              />
-              <img
-                src="./images/car-2.jpg"
-                alt=""
-                class="js-previewImage gallery__previewImage"
-              />
-              <img
-                src="./images/car-4.jpg"
-                alt=""
-                class="js-previewImage gallery__previewImage"
-              />
-              <img
-                src="./images/car-6.jpg"
-                alt=""
-                class="js-previewImage gallery__previewImage"
-              />
-              <img
-                src="./images/car-7.jpg"
-                alt=""
-                class="js-previewImage gallery__previewImage"
-              />
-              <img
-                src="./images/car-2.jpg"
-                alt=""
-                class="js-previewImage gallery__previewImage"
-              />
-              <img
-                src="./images/car-4.jpg"
-                alt=""
-                class="js-previewImage gallery__previewImage"
-              />
-              <img
-                src="./images/car-6.jpg"
-                alt=""
-                class="js-previewImage gallery__previewImage"
-              />
-              <img
-                src="./images/car-7.jpg"
-                alt=""
-                class="js-previewImage gallery__previewImage"
-              />
-            </div>
+          <div class="gallery__previewImages">
+            <img src="./images/car-3.webp" alt=""
+              class="gallery__currentImagePreview js-previewImage gallery__previewImage" />
+            <img src="./images/car-1.webp" alt="" class="js-previewImage gallery__previewImage" />
+            <img src="./images/car-8.webp" alt="" class="js-previewImage gallery__previewImage" />
+            <img src="./images/car-2.webp" alt="" class="js-previewImage gallery__previewImage" />
+            <img src="./images/car-4.webp" alt="" class="js-previewImage gallery__previewImage" />
+            <img src="./images/car-6.webp" alt="" class="js-previewImage gallery__previewImage" />
+            <img src="./images/car-7.webp" alt="" class="js-previewImage gallery__previewImage" />
+            <img src="./images/car-2.webp" alt="" class="js-previewImage gallery__previewImage" />
+            <img src="./images/car-4.webp" alt="" class="js-previewImage gallery__previewImage" />
+            <img src="./images/car-6.webp" alt="" class="js-previewImage gallery__previewImage" />
+            <img src="./images/car-7.webp" alt="" class="js-previewImage gallery__previewImage" />
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="contact_section">
-      <div class="section__frame">
-        <h2 class="sectionTitle">Skontaktuj się z nami</h2>
+  <section id="contact_section">
+    <div class="section__frame">
+      <h2 class="sectionTitle">Skontaktuj się z nami</h2>
 
-        <div class="contactForm__additionalInfo">
-          <div class="contactForm__addInfoContainer">
-            <h2 class="sectionTitle sectionTitle--subTtitle">
-              Tutaj nas znajdziesz
-            </h2>
-            <ul class="contact__list">
-              <li class="contact__listItem">
-                <a
-                  class="contact__link"
-                  target="_blank"
-                  href="https://www.google.com/maps/dir//Wiejska+11A,+32-300+Olkusz/@50.2803078,19.4902687,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x4716e3a421ca37a1:0x2b65029fe6c0b2b4!2m2!1d19.572669!2d50.2803369?entry=ttu"
-                  ><img
-                    class="contact__listIcon"
-                    src="./images/location-icon2.png"
-                    alt="Location icon"
-                  /><span class="contactName--localization"
-                    >Olkusz, ul. Wiejska 11A</span
-                  ></a
-                >
-              </li>
-              <li class="contact__listItem">
-                <span class="contact__link" href=""
-                  ><img
-                    class="contact__listIcon"
-                    src="./images/clock.png"
-                    alt="Clock icon"
-                  /><span class="contactName--open"
-                    >Codziennie* 9:00-17:00</span
-                  ></span
-                >
-              </li>
-            </ul>
+      <div class="contactForm__additionalInfo">
+        <div class="contactForm__addInfoContainer">
+          <h2 class="sectionTitle sectionTitle--subTtitle">
+            Tutaj nas znajdziesz
+          </h2>
+          <ul class="contact__list">
+            <li class="contact__listItem">
+              <a class="contact__link" target="_blank"
+                href="https://www.google.com/maps/dir//Wiejska+11A,+32-300+Olkusz/@50.2803078,19.4902687,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x4716e3a421ca37a1:0x2b65029fe6c0b2b4!2m2!1d19.572669!2d50.2803369?entry=ttu"><img
+                  class="contact__listIcon" src="./images/location-icon2.png" alt="Location icon" /><span
+                  class="contactName--localization">Olkusz, ul. Wiejska 11A</span></a>
+            </li>
+            <li class="contact__listItem">
+              <span class="contact__link" href=""><img class="contact__listIcon" src="./images/clock.png"
+                  alt="Clock icon" /><span class="contactName--open">Codziennie* 9:00-17:00</span></span>
+            </li>
+          </ul>
 
-            <span class="contactName__hours"
-              >*Z wyłączeniem niedziel i świąt.</span
-            >
-          </div>
-
-          <div class="contactForm__addInfoContainer">
-            <h2 class="sectionTitle sectionTitle--subTtitle">
-              Tutaj zadzwonisz
-            </h2>
-
-            <ul class="contact__list">
-              <li class="contact__listItem">
-                <a class="contact__link" href="tel:+48507373588"
-                  ><img
-                    class="contact__listIcon"
-                    src="./images/phone.png"
-                    alt="Phone icon"
-                  /><span class="contactName">Marcin</span></a
-                >
-              </li>
-              <li class="contact__listItem">
-                <a class="contact__link" href="tel:+48882640833"
-                  ><img
-                    class="contact__listIcon"
-                    src="./images/phone.png"
-                    alt="Phone icon"
-                  /><span class="contactName">Grzegorz</span></a
-                >
-              </li>
-            </ul>
-          </div>
+          <span class="contactName__hours">*Z wyłączeniem niedziel i świąt.</span>
         </div>
 
-        <div class="contactForm__text">
-          <span class="contactForm__span"
-            >Masz pytanie, chciałbyś wycenić naprawę lub sprawdzić dostępność
-            terminów?</span
-          >
-          <span class="contactForm__span"
-            >Zostaw nam wiadomość, lub skontakuj się telefonicznie.</span
-          >
-        </div>
+        <div class="contactForm__addInfoContainer">
+          <h2 class="sectionTitle sectionTitle--subTtitle">
+            Tutaj zadzwonisz
+          </h2>
 
-        <div class="formContainer">
-          <div class="contactForm__mapContainer">
-            <div class="mapouter">
-              <div class="gmap_canvas">
-                <iframe
-                  title="Google maps element"
-                  class="gmap_iframe"
-                  width="100%"
-                  frameborder="0"
-                  scrolling="no"
-                  marginheight="0"
-                  marginwidth="0"
-                  src="https://maps.google.com/maps?width=600&amp;height=464&amp;hl=en&amp;q=Olkusz, wiejska 11A&amp;t=p&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                ></iframe>
-              </div>
+          <ul class="contact__list">
+            <li class="contact__listItem">
+              <a class="contact__link" href="tel:+48507373588"><img class="contact__listIcon" src="./images/phone.png"
+                  alt="Phone icon" /><span class="contactName">Marcin</span></a>
+            </li>
+            <li class="contact__listItem">
+              <a class="contact__link" href="tel:+48882640833"><img class="contact__listIcon" src="./images/phone.png"
+                  alt="Phone icon" /><span class="contactName">Grzegorz</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="contactForm__text">
+        <span class="contactForm__span">Masz pytanie, chciałbyś wycenić naprawę lub sprawdzić dostępność
+          terminów?</span>
+        <span class="contactForm__span">Zostaw nam wiadomość, lub skontakuj się telefonicznie.</span>
+      </div>
+
+      <div class="formContainer">
+        <div class="contactForm__mapContainer">
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe title="Google maps element" class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                marginheight="0" marginwidth="0"
+                src="https://maps.google.com/maps?width=600&amp;height=464&amp;hl=en&amp;q=Olkusz, wiejska 11A&amp;t=p&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
             </div>
           </div>
-          <div class="contactForm__formContainer">
-            <form class="contactForm__form">
-              <label for="email" class="contactForm__label"
-                ><span class="contact__FormLabelSpan"
-                  >Adres email:*
-                </span></label
-              ><input
-                class="contactForm__input js-emailAddress"
-                id="email"
-                required
-                type="email"
-              />
-              <label for="phone_number" class="contactForm__label">
-                <span class="contact__FormLabelSpan"
-                  >Numer kontaktowy:
-                </span></label
-              >
-              <input
-                class="contactForm__input js-phoneNumber"
-                id="phone_number"
-                type="text"
-              />
-              <label for="message" class="contactForm__label"
-                ><span class="contact__FormLabelSpan"
-                  >Twoja wiadomość:*
-                </span></label
-              ><textarea
-                required
-                class="contactForm__input contactForm__input--message js-message"
-                id="message"
-              ></textarea>
+        </div>
+        <div class="contactForm__formContainer">
+          <form class="contactForm__form">
+            <label for="email" class="contactForm__label"><span class="contact__FormLabelSpan">Adres email:*
+              </span></label><input class="contactForm__input js-emailAddress" id="email" required type="email" />
+            <label for="phone_number" class="contactForm__label">
+              <span class="contact__FormLabelSpan">Numer kontaktowy:
+              </span></label>
+            <input class="contactForm__input js-phoneNumber" id="phone_number" type="text" />
+            <label for="message" class="contactForm__label"><span class="contact__FormLabelSpan">Twoja wiadomość:*
+              </span></label><textarea required class="contactForm__input contactForm__input--message js-message"
+              id="message"></textarea>
 
-              <div class="contactForm__message js-contactFormMsg">
-                <img
-                  class="contactForm__messageIcon"
-                  src="./images/checkmark-icon.png"
-                  alt="Checkmark icon"
-                /><span
-                  >Dziękujemy za wiadomość, skontaktujemy się najszybciej jak to
-                  możliwe!</span
-                >
-              </div>
+            <div class="contactForm__message js-contactFormMsg">
+              <img class="contactForm__messageIcon" src="./images/checkmark-icon.png"
+                alt="Checkmark icon" /><span>Dziękujemy za wiadomość, skontaktujemy się najszybciej jak to
+                możliwe!</span>
+            </div>
 
-              <button type="submit" class="contactForm__submitBtn js-submitBtn">
-                Wyślij
-              </button>
-            </form>
-          </div>
+            <button type="submit" class="contactForm__submitBtn js-submitBtn">
+              Wyślij
+            </button>
+          </form>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer>
-      <div class="footer__copywright">
-        <span class="footer__copy"
-          >Copyright &copy; 2024 GREGMAR
-          <span class="footer__companyName">| Powered by DeepCode</span></span
-        >
-      </div>
-    </footer>
-  </body>
+  <footer>
+    <div class="footer__copywright">
+      <span class="footer__copy">Copyright &copy; 2024 GREGMAR
+        <span class="footer__companyName">| Powered by DeepCode</span></span>
+    </div>
+  </footer>
+</body>
+
 </html>

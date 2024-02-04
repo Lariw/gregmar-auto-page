@@ -4,6 +4,7 @@
 
 .gallery__backgroundImage {
   display: flex;
+  margin:30px 0;
   flex-direction: column;
   justify-content: center;
 }
