@@ -163,18 +163,10 @@
         <button class="header__btn">Zobacz więcej!</button>
       </div>
     </header>
-
-    <div class="mainSection">
-      <section class="offer" id="offer_section">
+    <section class="offer" id="offer_section">
+      <div class="section__frame">
         <div class="containerGrid">
-          <h2 class="sectionTitle">
-            Nasza oferta
-            <img
-              class="offer__shoppingCardIcon"
-              src="./images/shopping-card.png"
-              alt="Shopping card"
-            />
-          </h2>
+          <h2 class="sectionTitle">Nasza oferta</h2>
           <div class="offer__gridContainer">
             <div class="flipContainer">
               <div class="card">
@@ -288,53 +280,103 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="gallery">
-        <div class="section__frame">
-          <h2 class="sectionTitle">Galeria</h2>
+    <section class="gallery">
+      <div class="section__frame">
+        <h2 class="sectionTitle">Galeria</h2>
 
-          <div class="gallery__container">
-            <div class="gallery__backgroundImage">
-              
-              <div class="gallery__currentImageContainer">
-                <img class="galleryArrowIcons js-arrowPrevious" src="./images/arrow-left.png" alt="Arrow left"><img class="js-currentImage gallery__currentImage" src="./images/car-3.jpg" alt="" />
-              <img class="galleryArrowIcons js-arrowNext" src="./images/arrow-right.png" alt="Arrow right">
-              </div>
+        <div class="gallery__container">
+          <div class="gallery__backgroundImage">
+            <div class="gallery__currentImageContainer">
+              <img
+                class="galleryArrowIcons js-arrowPrevious"
+                src="./images/arrow-left.png"
+                alt="Arrow left"
+              /><img
+                class="js-currentImage gallery__currentImage"
+                src="./images/car-3.jpg"
+                alt=""
+              />
+              <img
+                class="galleryArrowIcons js-arrowNext"
+                src="./images/arrow-right.png"
+                alt="Arrow right"
+              />
+            </div>
 
-              <div class="gallery__previewImages">
-                <img src="./images/car-3.jpg" alt="" class="gallery__currentImagePreview js-previewImage gallery__previewImage" />
-                <img src="./images/car-1.jpg" alt="" class="js-previewImage gallery__previewImage" />
-                <img src="./images/car-8.jpg" alt="" class="js-previewImage gallery__previewImage" />
-                <img src="./images/car-2.jpg" alt="" class="js-previewImage gallery__previewImage" />
-                <img src="./images/car-4.jpg" alt="" class="js-previewImage gallery__previewImage" />
-                <img src="./images/car-6.jpg" alt="" class="js-previewImage gallery__previewImage" />
-                <img src="./images/car-7.jpg" alt="" class="js-previewImage gallery__previewImage" />
-                <img src="./images/car-2.jpg" alt="" class="js-previewImage gallery__previewImage" />
-                <img src="./images/car-4.jpg" alt="" class="js-previewImage gallery__previewImage" />
-                <img src="./images/car-6.jpg" alt="" class="js-previewImage gallery__previewImage" />
-                <img src="./images/car-7.jpg" alt="" class="js-previewImage gallery__previewImage" />
-
-              </div>
+            <div class="gallery__previewImages">
+              <img
+                src="./images/car-3.jpg"
+                alt=""
+                class="gallery__currentImagePreview js-previewImage gallery__previewImage"
+              />
+              <img
+                src="./images/car-1.jpg"
+                alt=""
+                class="js-previewImage gallery__previewImage"
+              />
+              <img
+                src="./images/car-8.jpg"
+                alt=""
+                class="js-previewImage gallery__previewImage"
+              />
+              <img
+                src="./images/car-2.jpg"
+                alt=""
+                class="js-previewImage gallery__previewImage"
+              />
+              <img
+                src="./images/car-4.jpg"
+                alt=""
+                class="js-previewImage gallery__previewImage"
+              />
+              <img
+                src="./images/car-6.jpg"
+                alt=""
+                class="js-previewImage gallery__previewImage"
+              />
+              <img
+                src="./images/car-7.jpg"
+                alt=""
+                class="js-previewImage gallery__previewImage"
+              />
+              <img
+                src="./images/car-2.jpg"
+                alt=""
+                class="js-previewImage gallery__previewImage"
+              />
+              <img
+                src="./images/car-4.jpg"
+                alt=""
+                class="js-previewImage gallery__previewImage"
+              />
+              <img
+                src="./images/car-6.jpg"
+                alt=""
+                class="js-previewImage gallery__previewImage"
+              />
+              <img
+                src="./images/car-7.jpg"
+                alt=""
+                class="js-previewImage gallery__previewImage"
+              />
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-
-      <section class="contactForm" id="contact_section">
-        <h2 class="sectionTitle">
-          Skontaktuj się z nami
-          <img
-            class="contactForm__Mailicon"
-            src="./images/email-message.png"
-            alt="Email icon"
-          />
-        </h2>
+    <section id="contact_section">
+      <div class="section__frame">
+        <h2 class="sectionTitle">Skontaktuj się z nami</h2>
 
         <div class="contactForm__additionalInfo">
           <div class="contactForm__addInfoContainer">
-            <h2 class="sectionTitle">Tutaj nas znajdziesz</h2>
+            <h2 class="sectionTitle sectionTitle--subTtitle">
+              Tutaj nas znajdziesz
+            </h2>
             <ul class="contact__list">
               <li class="contact__listItem">
                 <a
@@ -369,7 +411,9 @@
           </div>
 
           <div class="contactForm__addInfoContainer">
-            <h2 class="sectionTitle">Tutaj zadzwonisz</h2>
+            <h2 class="sectionTitle sectionTitle--subTtitle">
+              Tutaj zadzwonisz
+            </h2>
 
             <ul class="contact__list">
               <li class="contact__listItem">
@@ -470,9 +514,9 @@
             </form>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-          </div>
     <footer>
       <div class="footer__copywright">
         <span class="footer__copy"

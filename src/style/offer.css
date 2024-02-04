@@ -1,20 +1,3 @@
-.offer {
-  background-color: #fff;
-  width: 90%;
-  margin: 10px auto;
-  border-radius: 8px;
-  -webkit-box-shadow: 0px 0px 23px -11px rgba(85, 85, 92, 1);
-  -moz-box-shadow: 0px 0px 23px -11px rgba(85, 85, 92, 1);
-  box-shadow: 0px 0px 23px -11px rgba(85, 85, 92, 1);
-  font-size: 22px;
-}
-
-@media only screen and (max-width: 770px) {
-  .offer {
-    font-size: 16px;
-  }
-}
-
 .offer__heading {
   display: flex;
   justify-content: center;
@@ -76,7 +59,6 @@
 
 .offer__gridContainer {
   display: grid;
-  margin: 20px auto;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: minmax(300px, 1fr);
 }
@@ -105,7 +87,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .flipContainer.active>.card {
+  .flipContainer.active > .card {
     transform: rotateY(180deg);
   }
 }

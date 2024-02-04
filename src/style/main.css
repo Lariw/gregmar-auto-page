@@ -1,3 +1,7 @@
+body {
+  background-color: #f5f5f5;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,28 +9,41 @@
   font-family: "Lato", sans-serif;
 }
 
-.mainSection {
-  background-color: #f5f5f5;
-  padding-top: 10px;
-  padding-bottom: 50px;
-}
-
 .sectionTitle {
   display: flex;
   justify-content: center;
   text-align: center;
   font-size: 45px;
+  padding: 20px;
   text-transform: uppercase;
   color: #000;
   font-family: "Tektur", sans-serif;
 }
 
+@media only screen and (max-width: 500px) {
+  .sectionTitle {
+    font-size: 35px;
+  }
+}
+
+.sectionTitle--subTtitle {
+  font-size: 20px;
+  padding: 20px;
+  font-weight: 400;
+}
+
 .section__frame {
-  margin: 20px auto;
-  width:90%;
+  margin: 10px auto;
+  width: 85%;
   background-color: #fff;
   border-radius: 8px;
   -webkit-box-shadow: 0px 0px 23px -11px rgba(85, 85, 92, 1);
   -moz-box-shadow: 0px 0px 23px -11px rgba(85, 85, 92, 1);
   box-shadow: 0px 0px 23px -11px rgba(85, 85, 92, 1);
+}
+
+@media only screen and (max-width: 500px) {
+  .section__frame {
+    width: 100%;
+  }
 }
